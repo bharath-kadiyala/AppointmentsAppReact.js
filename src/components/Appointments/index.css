@@ -1,0 +1,129 @@
+* {
+  font-family: 'Roboto';
+  margin: 0;
+}
+
+.bg-main-con {
+  background: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+.card-con {
+  background-color: #ffff;
+  padding: 40px;
+  width: 80%;
+  max-width: 700px;
+  margin-top: 40px;
+  margin-left: 10px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 26px;
+  color: #171f46;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+.text-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.form-con {
+  display: flex;
+  flex-direction: column;
+}
+
+.each-con {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+  width: 200px;
+}
+
+.input-sty {
+  font-size: 12px;
+  color: #171f46;
+  padding: 8px;
+  margin-top: 5px;
+  border-radius: 4px;
+  border: 1px solid #171f46;
+}
+
+.date-sty {
+  font-size: 12px;
+  padding: 8px;
+  margin-top: 5px;
+  color: #171f46;
+  font-weight: 500;
+  border-radius: 4px;
+  border: 1px solid #171f46;
+}
+
+.input-text-sty {
+  font-size: 11px;
+  color: #171f46;
+  font-weight: 400;
+}
+
+.btn-sty {
+  height: 30px;
+  width: 60px;
+  padding: 4px;
+  margin-top: 20px;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  background-color: #8b5cf6;
+  color: #ffff;
+  font-size: 12px;
+}
+
+.img-sty {
+  width: 280px;
+}
+
+.hr-sty {
+  border: 1px solid #b5b7c4;
+  margin-top: 15px;
+}
+
+.appointment-con {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.appointment-sty {
+  font-size: 15px;
+  color: #171f46;
+  font-weight: 600;
+}
+
+.starred-sty {
+  height: 30px;
+  width: 80px;
+  border: 1px solid #8b5cf6;
+  cursor: pointer;
+  border-radius: 20px;
+  background-color: #ffff;
+  color: #8b5cf6;
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.unOrder-List-con {
+  list-style-type: none;
+  display: flex;
+  flex-wrap: wrap;
+  padding: 0;
+  margin-top: -15px;
+}
